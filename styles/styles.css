@@ -1,5 +1,22 @@
-button {
+div {
+  display: flex;
   height: 50px;
   width: 50px;
-  background-color: aqua;
+  border: solid 1px black;
+  background-color: orange;
+}
+
+body {
+  background-color: orange;
+}
+
+.table {
+  display: grid;
+  grid-template-columns: repeat(18, 55px);
+  grid-template-rows: repeat(9, 55px);
+}
+
+.hide {
+  background-color: orange;
+  visibility: hidden;
 }/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,17 @@
+div {
+  display: flex;
+  height: 50px;
+  width: 50px;
+  border: solid 1px black;
+  background-color: orange;
+}
+
+body {
+  background-color: orange;
+}
+
+.table {
+  display: grid;
+  grid-template-columns: repeat(18, 55px);
+  grid-template-rows: repeat(9, 55px);
+}
